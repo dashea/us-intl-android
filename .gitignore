@@ -3,3 +3,8 @@
 
 # Ignore Gradle build output directory
 build
+
+# eclipse generated files
+.classpath
+.project
+.settings
