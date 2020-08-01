@@ -1,0 +1,397 @@
+type OVERLAY
+
+### ROW 1
+
+# combining grave accent
+# shift: combining tilde
+key GRAVE {
+    label:                          '`'
+    base:                           '\u0300'
+    shift:                          '\u0303'
+}
+
+# altgr: inverted exclamation mark
+# altgr+shift: superscript one
+key 1 {
+    label:                          '1'
+    base:                           '1'
+    shift:                          '!'
+    ralt:                           '\u00a1'
+    ralt+shift:                     '\u00b9'
+}
+
+# altgr: superscript two
+key 2 {
+    label:                          '2'
+    base:                           '2'
+    shift:                          '@'
+    ralt:                           '\u00b2'
+}
+
+# altgr: superscript three
+key 3 {
+    label:                          '3'
+    base:                           '3'
+    shift:                          '#'
+    ralt:                           '\u00b3'
+}
+
+# altgr: currency sign
+# altgr+shift: pound sign
+key 4 {
+    label:                          '4'
+    base:                           '4'
+    shift:                          '$'
+    ralt:                           '\u00a4'
+    ralt+shift:                     '\u00a3'
+}
+
+# altgr: euro sign
+key 5 {
+    label:                          '5'
+    base:                           '5'
+    shift:                          '%'
+    ralt:                           '\u20ac'
+}
+
+# shift: combining circumflex accent
+# altgr: vulgar fraction one quarter
+key 6 {
+    label:                          '6'
+    base:                           '6'
+    shift:                          '\u0302'
+    ralt:                           '\u00bc'
+}
+
+# altgr: vulgar fraction one half
+key 7 {
+    label:                          '7'
+    base:                           '7'
+    shift:                          '&'
+    ralt:                           '\u00bd'
+}
+
+# altgr: vulgar fraction three quarters
+key 8 {
+    label:                          '8'
+    base:                           '8'
+    shift:                          '*'
+    ralt:                           '\u00be'
+}
+
+key 9 {
+    label:                          '9'
+    base:                           '9'
+    shift:                          '('
+}
+
+key 0 {
+    label:                          '0'
+    base:                           '0'
+    shift:                          ')'
+}
+
+# altgr: yen sign
+key MINUS {
+    label:                          '-'
+    base:                           '-'
+    shift:                          '_'
+    ralt:                           '\u00a5'
+}
+
+# altgr: multiplication sign
+# altgr+shift: division sign
+key EQUALS {
+    label:                          '='
+    base:                           '='
+    shift:                          '+'
+    ralt:                           '\u00d7'
+    ralt+shift:                     '\u00f7'
+}
+
+### ROW 2
+
+# altgr: latin letter a with diaeresis
+key Q {
+    label:                          'Q'
+    base:                           'q'
+    shift, capslock:                'Q'
+    ralt:                           '\u00e4'
+    ralt+shift, ralt+capslock:      '\u00c4'
+}
+
+# altgr: latin letter a with ring above
+key W {
+    label:                          'W'
+    base:                           'w'
+    shift, capslock:                'W'
+    ralt:                           '\u00e5'
+    ralt+shift, ralt+capslock:      '\u00c5'
+}
+
+# altgr: latin letter e with acute
+key E {
+    label:                          'E'
+    base:                           'e'
+    shift, capslock:                'E'
+    ralt:                           '\u00e9'
+    ralt+shift, ralt+capslock:      '\u00c9'
+}
+
+# altgr: registered sign
+key R {
+    label:                          'R'
+    base:                           'r'
+    shift, capslock:                'R'
+    ralt:                           '\u00ae'
+}
+
+# altgr: latin letter thorn
+key T {
+    label:                          'T'
+    base:                           't'
+    shift, capslock:                'T'
+    ralt:                           '\u00fe'
+    ralt+shift, ralt+capslock:      '\u00de'
+}
+
+# altgr: latin letter u with diaeresis
+key Y {
+    label:                          'Y'
+    base:                           'y'
+    shift, capslock:                'Y'
+    ralt:                           '\u00fc'
+    ralt+shift, ralt+capslock:      '\u00dc'
+}
+
+# altgr: latin letter u with acute
+key U {
+    label:                          'U'
+    base:                           'u'
+    shift, capslock:                'U'
+    ralt:                           '\u00fc'
+    ralt+shift, ralt+capslock:      '\u00dc'
+}
+
+# altgr: latin letter i with acute
+key I {
+    label:                          'I'
+    base:                           'i'
+    shift, capslock:                'I'
+    ralt:                           '\u00ed'
+    ralt+shift, ralt+capslock:      '\u00cd'
+}
+
+# altgr: latin letter o with acute
+key O {
+    label:                          'O'
+    base:                           'o'
+    shift, capslock:                'O'
+    ralt:                           '\u00f3'
+    ralt+shift, ralt+capslock:      '\u00d3'
+}
+
+# altgr: latin letter o with diaeresis
+key P {
+    label:                          'P'
+    base:                           'p'
+    shift, capslock:                'P'
+    ralt:                           '\u00f6'
+    ralt+shift, ralt+capslock:      '\u00d6'
+}
+
+# altgr: left-pointing double angle quotation mark
+key LEFT_BRACKET {
+    label:                          '['
+    base:                           '['
+    shift:                          '{'
+    ralt:                           '\u00ab'
+}
+
+# altgr: right-pointing double angle quotation mark
+key RIGHT_BRACKET {
+    label:                          ']'
+    base:                           ']'
+    shift:                          '}'
+    ralt:                           '\u00bb'
+}
+
+# altgr: not sign
+# altgr+shift: broken bar
+key BACKSLASH {
+    label:                          '\\'
+    base:                           '\\'
+    shift:                          '|'
+    ralt:                           '\u00ac'
+    ralt+shift:                     '\u00a6'
+}
+
+### ROW 3
+
+# altgr: latin letter a with acute
+key A {
+    label:                          'A'
+    base:                           'a'
+    shift, capslock:                'A'
+    ralt:                           '\u00e1'
+    ralt+shift, ralt+capslock:      '\u00c1'
+}
+
+# altgr: latin small letter sharp s
+# altgr+shift: section sign
+key S {
+    label:                          'S'
+    base:                           's'
+    shift, capslock:                'S'
+    ralt:                           '\u00df'
+    ralt+shift:                     '\u00a7'
+}
+
+# altgr: latin letter eth
+key D {
+    label:                          'D'
+    base:                           'd'
+    shift, capslock:                'D'
+    ralt:                           '\u00f0'
+    ralt+shift, ralt+capslock:      '\u00d0'
+}
+
+key F {
+    label:                          'F'
+    base:                           'f'
+    shift, capslock:                'F'
+}
+
+key G {
+    label:                          'G'
+    base:                           'g'
+    shift, capslock:                'G'
+}
+
+key H {
+    label:                          'H'
+    base:                           'h'
+    shift, capslock:                'H'
+}
+
+key J {
+    label:                          'J'
+    base:                           'j'
+    shift, capslock:                'J'
+}
+
+key K {
+    label:                          'K'
+    base:                           'k'
+    shift, capslock:                'K'
+}
+
+# altgr: latin letter o with stroke
+key L {
+    label:                          'L'
+    base:                           'l'
+    shift, capslock:                'L'
+    ralt:                           '\u00f8'
+    ralt+shift, ralt+capslock:      '\u00d8'
+}
+
+# altgr: pilcrow sign
+# altgr+shift: degree sign
+key SEMICOLON {
+    label:                          ';'
+    base:                           ';'
+    shift:                          ':'
+    ralt:                           '\u00b6'
+    ralt+shift:                     '\u00b0'
+}
+
+# combining acute accent
+# combining diaeresis
+# altgr: acute accent
+# altgr+shift: diaeresis
+key APOSTROPHE {
+    label:                          '\''
+    base:                           '\u0301'
+    shift:                          '\u0308'
+    ralt:                           '\u00b4'
+    ralt+shift:                     '\u00a8'
+}
+
+### ROW 4
+
+# altgr: latin letter ae
+key Z {
+    label:                          'Z'
+    base:                           'z'
+    shift, capslock:                'Z'
+    ralt:                           '\u00e6'
+    ralt+shift, ralt+capslock:      '\u00c6'
+}
+
+key X {
+    label:                          'X'
+    base:                           'x'
+    shift, capslock:                'X'
+}
+
+# altgr: copyright sign
+# altgr+shift: cent sign
+key C {
+    label:                          'C'
+    base:                           'c'
+    shift, capslock:                'C'
+    ralt:                           '\u00a9'
+    ralt+shift:                     '\u00a2'
+}
+
+key V {
+    label:                          'V'
+    base:                           'v'
+    shift, capslock:                'V'
+}
+
+key B {
+    label:                          'B'
+    base:                           'b'
+    shift, capslock:                'B'
+}
+
+# altgr: latin letter n with tilde
+key N {
+    label:                          'N'
+    base:                           'n'
+    shift, capslock:                'N'
+    ralt:                           '\u00f1'
+    ralt+shift, ralt+capslock:      '\u00d1'
+}
+
+# altgr: micro sign
+key M {
+    label:                          'M'
+    base:                           'm'
+    shift, capslock:                'M'
+    ralt:                           '\u00b5'
+}
+
+# altgr: latin letter c with cedilla
+key COMMA {
+    label:                          ','
+    base:                           ','
+    shift:                          '<'
+    ralt:                           '\u00e7'
+    ralt+shift, ralt+capslock:      '\u00c7'
+}
+
+key PERIOD {
+    label:                          '.'
+    base:                           '.'
+    shift:                          '>'
+}
+
+# altgr: inverted question mark
+key SLASH {
+    label:                          '/'
+    base:                           '/'
+    shift:                          '?'
+    ralt:                           '\u00bf'
+}

@@ -9,5 +9,17 @@
     android:icon="@mipmap/ic_launcher"
     android:label="@string/app_name"
     >
+    <receiver
+      android:label="@string/keyboard_layout_usintl_deadkeys_label"
+      android:name=".InputDeviceReceiver"
+      >
+      <intent-filter>
+        <action android:name="android.hardware.input.action.QUERY_KEYBOARD_LAYOUTS" />
+      </intent-filter>
+      <meta-data
+        android:name="android.hardware.input.metadata.KEYBOARD_LAYOUTS"
+        android:resource="@xml/keyboard_layouts"
+        />
+    </receiver>
   </application>
 </manifest>
