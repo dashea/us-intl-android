@@ -1,4 +1,4 @@
 <resources>
   <string name="app_name">US-International External Keyboard Layout</string>
-  <string name="keyboard_layout_usintl_deadkeys_label">English (US International with Dead Keys)</string>
+  <string name="keyboard_layout_usintl_deadkeys_label">English (US), International style with dead keys</string>
 </resources>
