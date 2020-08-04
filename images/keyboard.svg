@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg1468"
+    sodipodi:docname="keyb1.svg"
+    viewBox="0 0 187.5 187.5"
+    sodipodi:version="0.32"
+    version="1.0"
+    y="0"
+    x="0"
+    inkscape:version="0.42"
+    sodipodi:docbase="C:\Documents and Settings\Jarno\Omat tiedostot\vanhasta\opencliparts\omat\symbols"
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:window-width="640"
+      pagecolor="#ffffff"
+      inkscape:zoom="1.8346667"
+      borderopacity="1.0"
+      inkscape:current-layer="svg1468"
+      inkscape:cx="93.750000"
+      inkscape:cy="93.750000"
+      inkscape:window-height="480"
+      inkscape:pageopacity="0.0"
+  />
+  <g
+      id="layer1"
+    >
+    <g
+        id="g2736"
+        transform="translate(-138.61 -857.23)"
+      >
+      <rect
+          id="rect2700"
+          style="stroke-linejoin:round;stroke:#000000;stroke-linecap:round;stroke-width:3.8521;fill:#ffffff"
+          rx="9.4681"
+          ry="14.97"
+          height="58.455"
+          width="121.82"
+          y="931.93"
+          x="171.45"
+      />
+      <path
+          id="path2702"
+          style="stroke:#000000;stroke-dasharray:4.9175124 4.9175124;stroke-width:4.9175;fill:none"
+          d="m184.06 947.36h94.08"
+      />
+      <path
+          id="path2704"
+          style="stroke:#000000;stroke-dasharray:4.9175124 4.9175124;stroke-width:4.9175;fill:none"
+          d="m184.06 957.05h94.08"
+      />
+      <path
+          id="path2706"
+          style="stroke:#000000;stroke-dasharray:4.9175124 4.9175124;stroke-width:4.9175;fill:none"
+          d="m184.06 966.75h94.08"
+      />
+      <path
+          id="path2708"
+          style="stroke:#000000;stroke-width:4.9175;fill:none"
+          d="m184.06 977.23h94.08"
+      />
+      <path
+          id="path2712"
+          style="stroke:#000000;stroke-linecap:round;stroke-width:4.3986;fill:none"
+          d="m278.67 929.84s8.86-13.98-0.31-21.47c-10.76-8.79-20.81 8.66-36.55-3.07"
+      />
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Keyboard 1 icon</dc:title
+        >
+        <dc:date
+          >2006-12-26T00:00:00</dc:date
+        >
+        <dc:description
+        />
+        <dc:source
+          >https://openclipart.org/detail/24584/-by--24584</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >Anonymous</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
