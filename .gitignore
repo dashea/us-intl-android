@@ -8,3 +8,6 @@ build
 .classpath
 .project
 .settings
+
+# info for signing release packages
+keystore.properties

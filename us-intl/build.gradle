@@ -9,4 +9,15 @@ android {
         versionCode 1
         versionName "1.0.0"
     }
+
+    signingConfigs {
+        // Created via properties file by the root build.gradle
+        release { }
+    }
+
+    buildTypes {
+        release {
+            // signingConfig added via properties file by the root build.gradle
+        }
+    }
 }
