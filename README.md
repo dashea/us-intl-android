@@ -16,15 +16,6 @@ or on Windows,
 
 `gradlew build`
 
-## Installing
-
-Enable [USB debugging](https://developer.android.com/studio/debug/dev-options) on your device, and connect it to your computer.
-
-Run `./gradlew installDebug` to install the package on your device.
-
-To use the layout, connect an external keyboard, and in settings navigate to `System -> Languages & Input -> Physical Keyboard`.
-Select your keyboard, tap `Set up keyboard layouts`, and enable `English (US International with Dead Keys)`
-
 ## Bugs
 
 Report any problems in the [github issue tracker](https://github.com/dashea/us-intl-android/issues) or by emailing reallylongword@gmail.com
