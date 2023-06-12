@@ -1,3 +1,15 @@
+# IMPORANT NOTE
+
+This project is mostly a proof of concept around creating Android keyboard layout configurations.
+
+The behavior of the dead key mappings is dictated by Android, and much of it is unintuitive to users of dead key layouts on other systems.
+
+For example, most users would expect `'` followed by a space to emit U+0027, the US-ASCII apostrophe character.
+Instead, it emits U+00B4, the Latin-1 acute accent.
+Changing this behavior is not possible without either changes to the Android API.
+
+This repository is not maintained and will not receive any more updates.
+
 # US-Intl with Dead Keys for Android
 
 This package provides the [US International](https://en.wikipedia.org/wiki/QWERTY#US-International) keyboard layout for use with Android and external (USB, Bluetooth) keyboards.
